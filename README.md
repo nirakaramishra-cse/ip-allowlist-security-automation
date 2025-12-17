@@ -1,4 +1,12 @@
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Domain-Cybersecurity-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Focus-SOC_Automation-critical?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Language-Python-success?style=for-the-badge&logo=python">
+  <img src="https://img.shields.io/badge/Security-IP_Allowlisting-important?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge">
+</p>
+
 # IP Allowlist Security Automation (Python)
 
 This project demonstrates a Python-based security automation workflow used to
