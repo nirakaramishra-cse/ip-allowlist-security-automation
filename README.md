@@ -1,4 +1,6 @@
 
+# IP Allowlist Security Automation Tool (Python)
+
 <p align="center">
   <img src="https://img.shields.io/badge/Domain-Cybersecurity-blue?style=for-the-badge">
   <img src="https://img.shields.io/badge/Focus-SOC_Automation-critical?style=for-the-badge">
@@ -7,18 +9,31 @@
   <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge">
 </p>
 
-# IP Allowlist Security Automation (Python)
-
-This project demonstrates a Python-based security automation workflow used to
-manage IP allowlists by removing unauthorized addresses. It reflects a
-SOC / Blue Team use case where automation is applied to enforce access control
-and reduce human error in security configurations.
-
-The project focuses on practical security automation rather than complex
-algorithms, highlighting how simple scripting can significantly improve
-security operations.
-
 ---
+
+
+## 📌 Overview
+
+This project is a Python-based security automation tool that manages IP allowlists by removing unauthorized addresses. It simulates real-world SOC workflows where automation is used to enforce access control and reduce manual errors.
+
+
+## ✨ Key Features
+
+- Automates IP allowlist updates  
+- Removes unauthorized IP addresses safely  
+- Enforces least-privilege access control  
+- Reduces manual errors in configuration  
+- Simple and reusable security automation script
+
+
+## 🔐 Security Concepts
+
+- Access Control  
+- Least Privilege Principle  
+- Security Automation  
+- Configuration Management  
+- Operational Security (SecOps)
+
 
 ## Project Overview
 
@@ -37,20 +52,11 @@ with the principle of least privilege.
 
 ---
 
-## Security Use Case (SOC Perspective)
+## 🎯 Use Case
 
-From a Security Operations Center (SOC) perspective, this automation supports:
+This project demonstrates how SOC analysts automate repetitive security tasks such as updating access control lists. It reflects real-world scenarios where quick and accurate removal of unauthorized access is critical for maintaining system security.
 
-- Enforcement of access control policies
-- Reduction of configuration drift
-- Faster response to access revocation requests
-- Minimization of manual errors in security files
-- Consistent and repeatable security operations
 
-This type of scripting is commonly used by SOC analysts and security engineers
-to support day-to-day operational security tasks.
-
----
 
 ## Tools and Technologies Used
 
@@ -60,7 +66,7 @@ to support day-to-day operational security tasks.
 - Conditional logic and loops
 - Basic error prevention techniques
 
----
+
 
 ## Project Structure
 
@@ -81,52 +87,37 @@ ip-allowlist-security-automation/
 
 ```
 
----
+## ▶️ How to Run
 
-## How the Automation Works
+1. Clone the repository  
+2. Navigate to the project folder  
+3. Run the script:
 
-1. The script reads the list of currently allowed IP addresses.
-2. It reads a second list containing IPs that must be removed.
-3. Each IP in the removal list is checked against the allowlist.
-4. Matching IPs are removed safely without causing errors.
-5. The updated allowlist is written back to the file.
+python src/update_allowlist.py
 
-This ensures that only authorized IP addresses retain access.
 
 ---
 
-## Why This Project Matters
+## 📈 Impact
 
-Many entry-level security projects focus on scanning or analysis only. This
-project demonstrates **security automation**, which is a critical skill for
-modern SOC and Blue Team roles.
+- Improves accuracy of access control management  
+- Reduces time required for manual updates  
+- Minimizes risk of unauthorized access  
+- Demonstrates practical security automation skills
 
-It shows the ability to:
-- Translate security requirements into code
-- Automate repetitive security tasks
-- Apply least-privilege principles programmatically
-- Think operationally about security controls
 
----
+## 📄 Example
 
-## Intended Audience
+Allowlist:
+192.168.1.1  
+192.168.1.2  
 
-- SOC Analysts
-- Blue Team Practitioners
-- Cybersecurity students
-- Anyone learning security automation with Python
+Remove list:
+192.168.1.2  
 
----
+Updated allowlist:
+192.168.1.1  
 
-## Author
 
-**Nirakar Mishra**  
-Cybersecurity Student | SOC & Blue Team Focused
-
-#### **Connect with me:**
-
-- 🌐 [Portfolio](https://nirakaramishra-cse.github.io/Portfolio)
-
----
 
 
