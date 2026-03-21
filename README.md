@@ -35,23 +35,6 @@ This project is a Python-based security automation tool that manages IP allowlis
 - Operational Security (SecOps)
 
 
-## Project Overview
-
-IP allowlisting is a common access control mechanism used to restrict access to
-systems and services. Manually maintaining allowlists can be error-prone and
-inefficient, especially in dynamic environments.
-
-This project automates the process of:
-- Reading an existing IP allowlist
-- Identifying IP addresses that should no longer have access
-- Removing unauthorized IPs safely and consistently
-- Writing the updated allowlist back to a file
-
-The automation helps ensure that access policies remain accurate and aligned
-with the principle of least privilege.
-
----
-
 ## 🎯 Use Case
 
 This project demonstrates how SOC analysts automate repetitive security tasks such as updating access control lists. It reflects real-world scenarios where quick and accurate removal of unauthorized access is critical for maintaining system security.
